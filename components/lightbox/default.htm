@@ -1,0 +1,48 @@
+<script>
+    document.onreadystatechange = () => {
+        if (document.readyState === 'complete') {
+
+            let lightbox = new Lightbox();
+
+            let lightBoxOptions = {
+                // options
+                boxId: false,
+                dimensions: true,
+                captions: true,
+                prevImg: false,
+                nextImg: false,
+                hideCloseBtn: false,
+                closeOnClick: true,
+                loadingAnimation: 200,
+                animElCount: 4,
+                preload: true,
+                carousel: true,
+                animation: 400,
+                nextOnClick: true,
+                responsive: true,
+                maxImgSize: 0.8,
+                keyControl: true,
+                // callbacks
+                onopen: function () {
+                    // ...
+                },
+                onclose: function () {
+                    // ...
+                },
+                onload: function (event) {
+                    // ...
+                },
+                onresize: function () {
+                    // ...
+                },
+                onloaderror: function (event) {
+                    // ...
+                }
+            };
+
+            lightbox.load(lightBoxOptions);
+
+        }
+    };
+
+</script>

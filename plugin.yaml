@@ -1,0 +1,6 @@
+plugin:
+    name: 'enovision.lightbox::lang.plugin.name'
+    description: 'enovision.lightbox::lang.plugin.description'
+    author: Enovision
+    icon: oc-icon-arrows-alt
+    homepage: 'https://www.enovision.net/october-lightbox'
